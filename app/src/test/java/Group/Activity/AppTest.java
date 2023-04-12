@@ -5,15 +5,8 @@ package Group.Activity;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
-
-
 import java.util.ArrayList;
-
-//import static org.junit.jupiter.api.Assertions.*;
-
-public class AppTest {
-
-   
+public class AppTest {  
     @Test
    public void even_Checker() {
         ArrayList<Integer> expected = new ArrayList<>();
