@@ -4,7 +4,8 @@ import java.util.*;
 public class App {
     public static void main(String[] args) {
         System.out.println("Enter arrayList size:- ");
-        int size = arrListSize(new Scanner(System.in));
+        int size = new Scanner(System.in).nextInt();
+         size = checkSize(size);
         System.out.println("Enter " + size +" integers:- ");
          ArrayList<Integer> num = new ArrayList<Integer>(size);
         
@@ -16,14 +17,11 @@ public class App {
 
     }
 
-    private static int arrListSize(Scanner scanner) {
-        int size = scanner.nextInt();
-        if(size>=0){
-        return size;
+    public static int checkSize(int size) {
+        if(size<0){
+        throw new IllegalArgumentException("size should not be negative");
     }
         else{
-            System.out.println("illegal entry enter again");
-            size = arrListSize(new Scanner(System.in));
         return size;
     }
         

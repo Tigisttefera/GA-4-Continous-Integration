@@ -3,28 +3,38 @@ import java.util.*;
 
 <span class="nc" id="L4">public class App {</span>
     public static void main(String[] args) {
-<span class="nc" id="L6">        System.out.println(&quot;Enter array size:- &quot;);</span>
-<span class="nc" id="L7">        Scanner sn = new Scanner(System.in);</span>
-<span class="nc" id="L8">        ArrayList&lt;Integer&gt; num = new ArrayList&lt;Integer&gt;();</span>
-<span class="nc" id="L9">        int size = sn.nextInt();</span>
-<span class="nc" id="L10">        System.out.println(&quot;Enter &quot; + size +&quot; integer:- &quot;);</span>
-<span class="nc bnc" id="L11" title="All 2 branches missed.">        for (int i = 0; i &lt; size; i++) {</span>
+<span class="nc" id="L6">        System.out.println(&quot;Enter arrayList size:- &quot;);</span>
+<span class="nc" id="L7">        int size = new Scanner(System.in).nextInt();</span>
+<span class="nc" id="L8">         size = checkSize(size);</span>
+<span class="nc" id="L9">        System.out.println(&quot;Enter &quot; + size +&quot; integers:- &quot;);</span>
+<span class="nc" id="L10">         ArrayList&lt;Integer&gt; num = new ArrayList&lt;Integer&gt;(size);</span>
+        
+<span class="nc bnc" id="L12" title="All 2 branches missed.">        for (int i = 0; i &lt; size; i++) {</span>
 
-<span class="nc" id="L13">            num.add(sn.nextInt());</span>
+<span class="nc" id="L14">            num.add(new Scanner(System.in).nextInt());</span>
         }
-
 <span class="nc" id="L16">      System.out.println(even_Checker(num));</span>
 
 <span class="nc" id="L18">    }</span>
-    public static ArrayList&lt;Integer&gt; even_Checker(ArrayList&lt;Integer&gt; list_num){
-<span class="fc" id="L20">        ArrayList&lt;Integer&gt; even_list = new ArrayList&lt;&gt;();</span>
-<span class="fc bfc" id="L21" title="All 2 branches covered.">        for (Integer l:list_num) {</span>
-<span class="fc bfc" id="L22" title="All 2 branches covered.">            if(l % 2 == 0 ){</span>
-<span class="fc" id="L23">                even_list.add(l);</span>
-            }
-<span class="fc" id="L25">        }</span>
 
-<span class="fc" id="L27">        return even_list;</span>
+    public static int checkSize(int size) {
+<span class="fc bfc" id="L21" title="All 2 branches covered.">        if(size&lt;0){</span>
+<span class="fc" id="L22">        throw new IllegalArgumentException(&quot;size should not be negative&quot;);</span>
+    }
+        else{
+<span class="fc" id="L25">        return size;</span>
+    }
+        
+    }
+    public static ArrayList&lt;Integer&gt; even_Checker(ArrayList&lt;Integer&gt; list_num){
+<span class="fc" id="L30">        ArrayList&lt;Integer&gt; even_list = new ArrayList&lt;&gt;();</span>
+<span class="fc bfc" id="L31" title="All 2 branches covered.">        for (Integer l:list_num) {</span>
+<span class="fc bfc" id="L32" title="All 2 branches covered.">            if(l % 2 == 0 ){</span>
+<span class="fc" id="L33">                even_list.add(l);</span>
+            }
+<span class="fc" id="L35">        }</span>
+
+<span class="fc" id="L37">        return even_list;</span>
     }
 }
 
