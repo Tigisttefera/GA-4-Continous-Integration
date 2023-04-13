@@ -1,0 +1,21 @@
+name: Java CI
+
+on:
+  commit:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: macos-latest #If running on windows change this line to runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-java@v3
+      with:
+        distribution: 'temurin'
+        java-version: '17'
+    - name: Run tests
+      run: sbt coverage test coverageReport
+    - name: Submit coverage report
+      run: bash <(curl -s https://codecov.io/bash)
