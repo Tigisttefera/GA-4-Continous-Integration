@@ -7,3 +7,4 @@
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/ttefera1/GA-4-Continous-Integration.svg)](http://isitmaintained.com/project/ttefera1/GA-4-Continous-Integration "Percentage of issues still open")
 [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/ttefera1/GA-4-Continous-Integration.svg)](http://isitmaintained.com/project/ttefera1/GA-4-Continous-Integration "Average time to resolve an issue")
 ![GitHub repo size](https://img.shields.io/github/repo-size/ttefera1/GA-4-Continous-Integration?color=green)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ttefera1/GA-4-Continous-Integration/graphs/commit-activity)
