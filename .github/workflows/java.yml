@@ -23,7 +23,7 @@ jobs:
 
       - name: Add coverage to PR
         id: jacoco
-        uses: ttefera1/GA-4-Continous-Integration@v1.3
+        uses: build/reports/tests/test@ttefera1/GA-4-Continous-Integration 
         with:
           paths: ${{ github.workspace }}/build/customJacocoDir/test/jacocoTestReport.xml
           token: ${{ secrets.GITHUB_TOKEN }}
