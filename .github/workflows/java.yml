@@ -5,6 +5,9 @@ on:
     branches: [ main ]
 
 jobs:
+  test:
+    name: running unit tests
+    runs-on: ubuntu-latest
   build:
 
     runs-on: macos-latest #If running on windows change this line to runs-on: windows-latest
@@ -24,3 +27,7 @@ jobs:
           arguments: build
     - name: Submit coverage report
       run: bash <(curl -s https://codecov.io/bash)
+    - name: Install
+      run: npm install
+    - name: Test
+      run: npm test
