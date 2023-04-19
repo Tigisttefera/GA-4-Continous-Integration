@@ -23,7 +23,7 @@ jobs:
 
       - name: Add coverage to PR
         id: jacoco
-        uses: madrapps/jacoco-report@v1.3
+        uses: ttefera1/GA-4-Continous-Integration@v1.3
         with:
           paths: ${{ github.workspace }}/build/customJacocoDir/test/jacocoTestReport.xml
           token: ${{ secrets.GITHUB_TOKEN }}
