@@ -7,12 +7,18 @@ on:
 
 jobs:
   test: 
-      runs-on: ubuntu-latest
-      steps:
-        - name: npm install, test
-          run: |
-            npm install
-            npm test
+       strategy:
+         matrix:
+          platform: [ubuntu.latest,windows.latest, macos.latest]
+       runs-on: ${{ matrix.platform }}
+       steps:
+       - uses: actions/checkout@v3
+       - name: Use Node.js ${{ matrix.platform }}
+         uses: actions/setup-node@v3
+         with:
+               version: ${{ matrix.platform }}
+       - run: npm install-ci-test
+           
   build:
 
     runs-on: ubuntu-latest #If running on windows change this line to runs-on: windows-latest
