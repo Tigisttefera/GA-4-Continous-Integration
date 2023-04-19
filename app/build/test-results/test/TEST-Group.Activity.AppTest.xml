@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Group.Activity.AppTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-04-19T22:18:29" hostname="DESKTOP-ISSPGVP" time="0.02">
+<testsuite name="Group.Activity.AppTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-04-19T23:22:24" hostname="DESKTOP-ISSPGVP" time="0.017">
   <properties/>
-  <testcase name="illegalSize" classname="Group.Activity.AppTest" time="0.014"/>
-  <testcase name="even_Checker" classname="Group.Activity.AppTest" time="0.006"/>
+  <testcase name="illegalSize" classname="Group.Activity.AppTest" time="0.011"/>
+  <testcase name="even_Checker" classname="Group.Activity.AppTest" time="0.005"/>
   <testcase name="checkSize" classname="Group.Activity.AppTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
