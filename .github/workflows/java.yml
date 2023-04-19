@@ -16,8 +16,10 @@ jobs:
        - name: Use Node.js ${{ matrix.platform }}
          uses: actions/setup-node@v3
          with:
-               version: ${{ matrix.platform }}
-       - run: npm install-ci-test
+               node-version: 12
+       - run: npm install
+       - run : ci
+       - run: test
            
   build:
 
