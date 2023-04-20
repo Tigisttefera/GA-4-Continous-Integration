@@ -16,16 +16,15 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: 16
-      - name: Run Coverage
-        run: |
-          chmod +x gradlew
-          ./gradlew jacocoTestReport
-
-      - name: Add coverage to PR
-        id: jacoco
-        uses: madrapps/jacoco-report@v1.3
+      - name: Give permission to gradlew
+        run: chmod +x gradlew
+      - name: Run test
+        run: ./gradlew test
+      - name: Run test coverage 
+        run: ./gradlew jacocoTestReport 
+      - name : generate jacoco badge
+        uses: cicirello/jacoco-badge-generator@v2
         with:
-          paths: ${{ github.workspace }}/build/customJacocoDir\test/jacocoTestReport.xml
-          token: ${{ secrets.GITHUB_TOKEN }}
-          min-coverage-overall: 40
-          min-coverage-changed-files: 60
+          generate-branches-badge: true
+          jacoco-csv-file: build/reports/jacoco/test/jacocoTestReport.csv
+             
