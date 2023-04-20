@@ -13,3 +13,4 @@
 ![Lines of code](https://img.shields.io/tokei/lines/github/ttefera1/GA-4-Continous-Integration?color=red)
 ![GitHub repo size](https://img.shields.io/github/repo-size/ttefera1/GA-4-Continous-Integration?color=green)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ttefera1/GA-4-Continous-Integration/graphs/commit-activity)
+[![CodeFactor](https://www.codefactor.io/repository/github/ttefera1/ga-4-continous-integration/badge)](https://www.codefactor.io/repository/github/ttefera1/ga-4-continous-integration)
