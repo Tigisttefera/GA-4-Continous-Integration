@@ -13,13 +13,13 @@ public class AppTest {
     @Test
     public void checkSize(){
         int expected = 3;
-        assertEquals(expected, App.checkSize(-3));
+        assertEquals(expected, App.checkSize(3));
     }
     @Test 
     public void illegalSize(){
         //var expected = IllegalArgumentException;
      assertThrows(IllegalArgumentException.class,
-      () -> App.checkSize(3));
+      () -> App.checkSize(-3));
     }
     @Test
    public void even_Checker() {
