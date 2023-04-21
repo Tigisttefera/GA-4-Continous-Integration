@@ -30,3 +30,7 @@ jobs:
              
       - name: Coveralls GitHub Action
         uses: coverallsapp/github-action@v2.1.2
+    finish:
+      steps:
+        - name: Coveralls Finished
+          uses: coverallsapp/github-action@v2
