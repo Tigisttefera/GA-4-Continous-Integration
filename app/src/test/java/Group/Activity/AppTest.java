@@ -19,7 +19,7 @@ public class AppTest {
     public void illegalSize(){
         //var expected = IllegalArgumentException;
      assertThrows(IllegalArgumentException.class,
-      () -> App.checkSize(-3));
+      () -> App.checkSize(3));
     }
     @Test
    public void even_Checker() {
