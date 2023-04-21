@@ -8,6 +8,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/ttefera1/GA-4-Continous-Integration)
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)  
 [![Coverage Status](https://coveralls.io/repos/github/ttefera1/GA-4-Continous-Integration/badge.svg?branch=main)](https://coveralls.io/github/ttefera1/GA-4-Continous-Integration?branch=main)
+![GitHub issues](https://img.shields.io/github/issues/ttefera1/GA-4-Continous-Integration)
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/ttefera1/GA-4-Continous-Integration/java.yml)
 ###  Complexity
 
