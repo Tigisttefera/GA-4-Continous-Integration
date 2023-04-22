@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fdd38e45-19f2-4a5d-92ff-90a37c5d4728" name="Changes" comment="fixed indent">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/java.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/java.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/Group/Activity/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/Group/Activity/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/test/Group/Activity/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/test/Group/Activity/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/customJacocoDir/test/jacocoTestReport.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/customJacocoDir/test/jacocoTestReport.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/jacoco/test.exec" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/jacoco/test.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/jacocoHtml/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/jacocoHtml/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/reports/tests/test/classes/Group.Activity.AppTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/reports/tests/test/classes/Group.Activity.AppTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/reports/tests/test/packages/Group.Activity.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/reports/tests/test/packages/Group.Activity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/test-results/test/TEST-Group.Activity.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/test-results/test/TEST-Group.Activity.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OfBov7j0A2Hk3NyI3VdakbmtOT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fdd38e45-19f2-4a5d-92ff-90a37c5d4728" name="Changes" comment="" />
+      <created>1681941935520</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681941935520</updated>
+    </task>
+    <task id="LOCAL-00001" summary="added coveralls test coverage">
+      <created>1682095204755</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682095204756</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added coveralls test coverage">
+      <created>1682096315623</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682096315623</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added token for coveralls">
+      <created>1682109492445</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682109492446</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fixed indent">
+      <created>1682110857554</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682110857554</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added coveralls test coverage" />
+    <MESSAGE value="added token for coveralls" />
+    <MESSAGE value="fixed indent" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed indent" />
+  </component>
+</project>
