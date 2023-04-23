@@ -8,7 +8,7 @@ on:
 jobs:
   build:
 
-    runs-on: windows-latest #If running on windows change this line to runs-on: windows-latest
+    runs-on: ubuntu-latest #If running on windows change this line to runs-on: windows-latest
 
     steps:
       - uses: actions/checkout@v2
@@ -23,7 +23,7 @@ jobs:
       - name: Run test coverage 
         run: ./gradlew jacocoTestReport 
       - name : generate jacoco badge
-        uses: cicirello/jacoco-badge-generator@v3
+        uses: cicirello/jacoco-badge-generator@v2
         with:
           generate-branches-badge: true
           jacoco-csv-file: build/customJacocoDir/test/jacocoTestReport.csv
