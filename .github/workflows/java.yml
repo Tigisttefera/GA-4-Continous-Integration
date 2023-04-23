@@ -22,13 +22,10 @@ jobs:
         run: ./gradlew clean build
       - name: Run test coverage 
         run: ./gradlew jacocoTestReport 
-      - name: Add coverage to PR
-        id: jacoco
-        uses: madrapps/jacoco-report@v1.3
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v3
         with:
-          paths: ${{ github.workspace }}/app/build/customJacocoDir/test/jacocoTestReport.xml
-          token: ${{ secrets.GITHUB_TOKEN }}
-          min-coverage-overall: 40
-          min-coverage-changed-files: 60
+          paths: ${{ github.workspace }}/app/build/customJacocoDir/test/jacocoTestReport.csv
+          
                        
      
