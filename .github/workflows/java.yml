@@ -26,6 +26,6 @@ jobs:
         uses: cicirello/jacoco-badge-generator@v2
         with:
           generate-branches-badge: true
-          jacoco-csv-file: build/customJacocoDir/test/jacocoTestReport.csv
+          jacoco-csv-file: app/build/customJacocoDir/test/jacocoTestReport.csv
              
      
