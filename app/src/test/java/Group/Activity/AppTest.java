@@ -4,55 +4,38 @@
 package Group.Activity;
 
 import org.junit.Test;
-
-import java.io.ByteArrayInputStream;
-import java.io.InputStream;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import org.junit.internal.Throwables;
 
 import static org.junit.Assert.*;
-
-public class AppTest {
-
+import java.util.ArrayList;
+public class AppTest {  
+    private Class IllegalArgumentException;
     @Test
-    public void testGetUserInput() {
-        // test with valid input
-        String input = "5\n";
-        InputStream in = new ByteArrayInputStream(input.getBytes());
-        System.setIn(in);
-        int result = App.getUserInput();
-        assertEquals(5, result);
-
-        // test with negative input
-        input = "-5\n5\n";
-        in = new ByteArrayInputStream(input.getBytes());
-        System.setIn(in);
-        result = App.getUserInput();
-        assertEquals(5, result);
+    public void checkSize(){
+        int expected = 3;
+        assertEquals(expected, App.checkSize(3));
     }
-
+    @Test 
+    public void illegalSize(){
+        //var expected = IllegalArgumentException;
+     assertThrows(IllegalArgumentException.class,
+      () -> App.checkSize(-3));
+    }
     @Test
-    public void testEvenChecker() {
-        // test with empty list
-        List<Integer> emptyList = Collections.emptyList();
-        List<Integer> result = App.even_Checker(emptyList);
-        assertTrue(result.isEmpty());
+   public void even_Checker() {
+        ArrayList<Integer> expected = new ArrayList<>();
+        ArrayList<Integer> actual = new ArrayList<>();
+        expected.add(2);
+        expected.add(4);
+        expected.add(6);
+        actual.add(2);
+        actual.add(3);
+        actual.add(4);
+        actual.add(5);
+        actual.add(6);
+        assertArrayEquals(expected.toArray(), (App.even_Checker(actual)).toArray());
+   }
 
-        // test with odd numbers only
-        List<Integer> oddList = Arrays.asList(1, 3, 5, 7, 9);
-        result = App.even_Checker(oddList);
-        assertTrue(result.isEmpty());
 
-        // test with even and odd numbers
-        List<Integer> mixedList = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9);
-        result = App.even_Checker(mixedList);
-        List<Integer> expected = Arrays.asList(2, 4, 6, 8);
-        assertEquals(expected, result);
-
-        // test with even numbers only
-        List<Integer> evenList = Arrays.asList(2, 4, 6, 8);
-        result = App.even_Checker(evenList);
-        assertEquals(evenList, result);
-    }
 }
+    
