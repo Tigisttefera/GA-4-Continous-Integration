@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Group.Activity.AppTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-04-21T23:37:43" hostname="LAPTOP-VT3ND03C" time="0.016">
+<testsuite name="Group.Activity.AppTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-04-23T22:52:47" hostname="DESKTOP-ISSPGVP" time="0.028">
   <properties/>
-  <testcase name="illegalSize" classname="Group.Activity.AppTest" time="0.011"/>
-  <testcase name="even_Checker" classname="Group.Activity.AppTest" time="0.004"/>
-  <testcase name="checkSize" classname="Group.Activity.AppTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="testEvenChecker" classname="Group.Activity.AppTest" time="0.013"/>
+  <testcase name="testGetUserInput" classname="Group.Activity.AppTest" time="0.014"/>
+  <system-out><![CDATA[Enter arrayList size: 
+Enter arrayList size: 
+Invalid input. Please enter a positive integer.
+Enter arrayList size: 
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
