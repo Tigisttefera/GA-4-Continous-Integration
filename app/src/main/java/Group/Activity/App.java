@@ -1,11 +1,17 @@
 package Group.Activity;
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println("Enter arrayList size:- ");
-        int size = new Scanner(System.in).nextInt();
-         size = checkSize(size);
+        
+        int size ;
+        try {
+            size = getUserInput();
+        } catch (InputMismatchException e) {
+            System.out.println("Invalid input. Please enter a valid integer.");
+            return;
+        }
         System.out.println("Enter " + size +" integers:- ");
          ArrayList<Integer> num = new ArrayList<Integer>(size);
         
@@ -16,25 +22,23 @@ public class App {
       System.out.println(even_Checker(num));
 
     }
-
-    public static int checkSize(int size) {
-        if(size<0){
-        throw new IllegalArgumentException("size should not be negative");
-    }
-        else{
+    public static int getUserInput() {
+        Scanner scanner = new Scanner(System.in);
+        int size;
+        do {
+            System.out.println("Enter arrayList size: ");
+            size = scanner.nextInt();
+            if (size <= 0) {
+                System.out.println("Invalid input. Please enter a positive integer.");
+            }
+        } while (size <= 0);
         return size;
     }
         
-    }
-    public static ArrayList<Integer> even_Checker(ArrayList<Integer> list_num){
-        ArrayList<Integer> even_list = new ArrayList<>();
-        for (Integer l:list_num) {
-            if(l % 2 == 0 ){
-                even_list.add(l);
-            }
-        }
-
-        return even_list;
+    public static List<Integer> even_Checker(List<Integer> list_num) {
+        return list_num.stream()
+                .filter(num -> num % 2 == 0)
+                .collect(Collectors.toList());
     }
 }
 
