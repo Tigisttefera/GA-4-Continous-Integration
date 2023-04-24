@@ -1,4 +1,4 @@
-# GA-4-Continous-Integration
+# GA-4-Continous-Integration Documentation 
 ### Project Matrics<br/>
 ###  In-Process 
 
@@ -17,3 +17,33 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/ttefera1/GA-4-Continous-Integration?color=green)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ttefera1/GA-4-Continous-Integration/graphs/commit-activity)
 [![CodeFactor](https://www.codefactor.io/repository/github/tigisttefera/ga-4-continous-integration/badge)](https://www.codefactor.io/repository/github/tigisttefera/ga-4-continous-integration)
+
+### About the App 
+
+This is a Java program that checks if a number is even or odd. The program prompts the user to enter an integer value
+
+for the size of an ArrayList and then prompts the user to enter that many integers. The program then uses a method called even_Checker
+
+to check which of those integers are even and returns an ArrayList containing only those even integers.
+
+### To run the workflow in different operating system please change runs-on at
+
+.github/workflows/java.yml to
+
+runs-on : ubuntu - latest or macos-latest or windows- latest
+
+### to update java- version 
+
+.github/workflows/java.yml
+
+### to generate jacoco report / build tool
+
+./gradlew clear build 
+
+### to see coverage report in xml/csv 
+
+app/build/customJacocoDir/test
+
+
+
+
