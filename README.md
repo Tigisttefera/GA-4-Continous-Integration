@@ -1,4 +1,4 @@
-# GA-4-Continous-Integration Project Documentation 
+# GA-4-Continous-Integration Documentation 
 ### Project Matrics<br/>
 ###  In-Process 
 
